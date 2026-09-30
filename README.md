@@ -1,4 +1,3 @@
-Set-Content -Path "README.md" -Value @"
 # SnapStudy-AI
 
 An intelligent offline study assistant designed to parse study documents, answer questions, generate quizzes, and organize study notes.
@@ -17,7 +16,7 @@ An intelligent offline study assistant designed to parse study documents, answer
 
 ## Project Structure
 
-\`\`\`text
+```text
 SnapStudy-AI/
 ├── app/
 │   ├── ai/            # Embedding and question-answering logic
@@ -33,38 +32,3 @@ SnapStudy-AI/
 ├── requirements.txt   # Python dependency list
 ├── run.py             # Root launch script
 └── README.md
-\`\`\`
-
----
-
-## Getting Started
-
-### 1. Prerequisites
-
-- Python 3.10+
-- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) (optional, required only for image OCR)
-
-### 2. Installation
-
-Clone the repository and install the dependencies:
-
-\`\`\`bash
-git clone https://github.com/shahzadakohinoor/SnapStudy-AI.git
-cd SnapStudy-AI
-pip install -r requirements.txt
-\`\`\`
-
-### 3. Usage
-
-Launch the interactive dashboard:
-
-\`\`\`bash
-python run.py
-\`\`\`
-
----
-
-## License
-
-This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
-"@
