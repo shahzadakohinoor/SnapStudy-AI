@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Local databases & model weights
+*.db
+*.sqlite3
+models/*.bin
+models/*.onnx
+models/*.pt
+models/*.safetensors
+!models/README.md
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
